@@ -26,7 +26,7 @@ header{
     min-width: 500px;
     justify-content: space-evenly;
 }
-.nav a{
+.nav a{ 
     font-size: 14px;
     letter-spacing: .3px;
     color: #282c3f;
@@ -111,6 +111,12 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    transition: 0.5s ease-in;
+}
+
+.category_items a :hover{
+    border-bottom: 4px solid #f54e77;
+    
 }
 
 .sale_item {
@@ -140,6 +146,10 @@ header{
     font-size: 15px;
     text-decoration: none;
     padding-bottom: 5px;
+}
+
+.footer_column a:hover{
+    border-bottom: 3px solid #f54e77;
 }
 
 .copyright {
